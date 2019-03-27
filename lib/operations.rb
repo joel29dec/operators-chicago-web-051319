@@ -1,6 +1,6 @@
 require 'pry'
 def unsafe?(speed)
-  speed === (39..60) ? false : true 
+  speed === (40..60) ? false : true 
   
 end
 binding.pry
